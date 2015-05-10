@@ -1,0 +1,2 @@
+defmodule NQueens do
+end
