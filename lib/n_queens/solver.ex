@@ -14,7 +14,6 @@ defmodule NQueens.Solver do
   end
 
   defp advance(board, queen_position, size) do
-    {row, column} = queen_position
     case place(board, queen_position) do
       {:ok, new_board} -> advance(new_board, advance_row(queen_position), size)
       {:fail, board}   -> advance(board, advance_column(queen_position), size)
