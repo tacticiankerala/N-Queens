@@ -4,7 +4,7 @@ N-Queens problem is an extension of the more popular [8-queens
 problem](http://en.wikipedia.org/wiki/Eight_queens_puzzle)
 
 ##Benchmark
-size      | time
+size      | time to find first solution
 --------- | -----
 8-queens  | 0.19s user 0.09s system 127% cpu 0.222 total
 12-queens | 0.21s user 0.11s system 129% cpu 0.244 total
